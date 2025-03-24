@@ -2,7 +2,7 @@
 
 float x_pj, y_pj; // position del jugador
 int playerLives = 3;
-float alfa = 0.1;
+
 
 void setupPJ()
 {

@@ -66,6 +66,7 @@ void setupEne()
   }
 }
 
+
 //dibujar enemigo constantemente
 void drawEnemies() 
 {
@@ -102,7 +103,7 @@ void drawEnemies()
     y_enemies[i] = constrain(y_enemies[i], 0, height - 30);
     
     // Dibujar el enemigo
-    fill(255, 0, 255);
+    fill(255, 0, 0);
     ellipse(x_enemies[i], y_enemies[i], 10, 10);
   }
  }

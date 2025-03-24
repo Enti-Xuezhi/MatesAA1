@@ -26,7 +26,7 @@ void drawMas1() //dibujar mascota 1
   y_mas1 = (1.0 - 1.5 * alfa) * y_mas1 + 1.5 * alfa * (y_pj + 12);
   
   //dibuja mascota 1
-  fill(0, 150, 150);
+  fill(0, 255, 255);
   ellipse(x_mas1, y_mas1, 15, 15);
 }
 
@@ -41,6 +41,6 @@ void drawMas2() //dibujar mascota 2
   }
   
   //dibuja mascota 2
-  fill(150, 150, 0);
+  fill(255, 255, 0);
   ellipse(x_mas2, y_mas2, 15, 15);
 }
